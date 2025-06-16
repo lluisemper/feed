@@ -67,7 +67,12 @@ export interface FeedOptions {
   description?: string;
   image?: string;
   favicon?: string;
-  copyright: string;
+  /**
+   * Copyright rights information for the feed
+   *
+   * Optional in Atom feeds and RSS.
+   */
+  copyright?: string;
 }
 
 export interface Extension {

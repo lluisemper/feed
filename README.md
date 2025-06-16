@@ -35,7 +35,7 @@ const feed = new Feed({
   language: "en", // optional, used only in RSS 2.0, possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
   image: "http://example.com/image.png",
   favicon: "http://example.com/favicon.ico",
-  copyright: "All rights reserved 2013, John Doe",
+  copyright: "All rights reserved 2013, John Doe", // optional
   updated: new Date(2013, 6, 14), // optional, default = today
   generator: "awesome", // optional, default = 'Feed for Node.js'
   feedLinks: {
